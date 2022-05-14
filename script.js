@@ -1,7 +1,7 @@
 //Initial values that I either deem necessary or helpful to be globally declared
 submitButton = document.querySelector(".submit");
 const pageContainer = document.querySelector(".pageContainer");
-const secretKey = process.env['SECRET_KEY']
+const key = "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"
 resultsHeadingOnPage = false;
 const resultsContainer = document.querySelector(".resultsContainer");
 
@@ -57,7 +57,7 @@ function getResponse(input) {
 		method: "POST",
 		headers: {
 			"Content-Type": "application/json",
-			Authorization: `Bearer ${secretKey}`,
+			Authorization: `Bearer ${key}`,
 		},
 		body: JSON.stringify(APIData),
 	})
