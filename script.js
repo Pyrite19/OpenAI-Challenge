@@ -1,7 +1,7 @@
 //Initial values that I either deem necessary or helpful to be globally declared
 submitButton = document.querySelector(".submit");
 const pageContainer = document.querySelector(".pageContainer");
-const secretKey = config.SECRET_KEY;
+const secretKey = process.env['SECRET_KEY']
 resultsHeadingOnPage = false;
 const resultsContainer = document.querySelector(".resultsContainer");
 
