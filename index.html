@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="config.js" type="text/javascript"></script>
     <script src="script.js" type="text/javascript" defer></script>
     <link rel="stylesheet" href="styles.css" type="text/css">
     <title>OpenAI </title>
@@ -14,9 +15,10 @@
     <div class="pageContainer">
         <h1 class="header">OpenAI Text</h1>
         <label class="textLabel">Enter Text:</label>
-        <textarea type="text" class="aiText" name="aiText"></textarea>
+        <textarea type="text" class="aiText" name="aiText" maxlength="100"></textarea>
+        <div class="counterDiv"><p class="textCount">0</p><p>/100</p></div>
         <button class="submit" name="submit">Submit</button>
-
+        <div class="resultsContainer"></div>
     </div>
 </body>
 
