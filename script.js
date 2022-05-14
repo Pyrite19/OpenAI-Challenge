@@ -72,6 +72,7 @@ function getResponse(input) {
 //Silly character counter I threw together
 textCounter = document.querySelector(".textCount");
 counterDiv = document.querySelector(".counterDiv");
+
 window.addEventListener("keyup", function (event) {
 	currentCount = document.querySelector(".aiText").value.length;
 	textCounter.textContent = currentCount;
