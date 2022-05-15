@@ -1,8 +1,8 @@
 //Initial values that I either deem necessary or helpful to be globally declared
 submitButton = document.querySelector(".submit");
 const pageContainer = document.querySelector(".pageContainer");
-const Key1 = "sk-3lcJPABPXikaRa"
-const Key2 = "wvBUoPT3BlbkFJP83tdze3U8BVnj9dl9W0"
+const Key1 = "sk-h4XHzhnYJlsDIUVVZOxOT3"
+const Key2 = "BlbkFJgChi32nsb6pdy0u2rWyo"
 const secretKey = Key1 + Key2;
 resultsHeadingOnPage = false;
 const resultsContainer = document.querySelector(".resultsContainer");
